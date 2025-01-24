@@ -1,6 +1,12 @@
-# La Noe Chile
+# ![alt text](images/icon.png "Title") La Noe Chile
 
-Proyecto que contiene el sitio web del grupo 4 de `La Noe Chile`, este proyecto se base de un template.
+Proyecto que contiene un prototipo de la página de inicio de `La Noe Chile`.
+
+## Integrantes
+
+- Bryan Tobar
+- José Ramos
+- Rodrigo Sepúlveda
 
 ## Netlify
 
