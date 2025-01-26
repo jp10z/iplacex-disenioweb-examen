@@ -1386,8 +1386,12 @@ Top bar style
 /*
 Assan Header Style
 */
-.navbar > .container {
-  position: relative; }
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
 
 .navbar-light.bg-faded {
   background: #3E7B27;
@@ -1408,11 +1412,6 @@ Assan Header Style
 .navbar-nav > li.dropdown-full-width {
   position: static; }
 
-.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open > .nav-link {
-  font-weight: 800;
-  color: #FFF;
-}
-
 .navbar-toggler-right {
   position: absolute;
   right: 5rem;
@@ -1426,9 +1425,6 @@ Assan Header Style
 
 .navbar-inverse .navbar-right-elements .list-inline > li > a {
   color: rgba(255, 255, 255, 0.5); }
-
-.navbar-inverse .navbar-nav .nav-link:focus, .navbar-inverse .navbar-nav .nav-link:hover, .navbar-inverse .navbar-right-elements .list-inline > li > a:hover {
-  color: rgba(255, 255, 255, 0.75); }
 
 .navbar-right-elements {
   float: none !important;
