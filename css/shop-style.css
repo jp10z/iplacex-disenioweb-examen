@@ -1414,13 +1414,14 @@ Assan Header Style
 
 .navbar-toggler-right {
   position: absolute;
-  right: 5rem;
+  right: 4px;
   top: 0; }
 
 .single-navbar .navbar-toggler-right {
   right: 0px; }
 
 .navbar-toggler {
+  padding-top: 10px;
   border: 0px !important; }
 
 .navbar-inverse .navbar-right-elements .list-inline > li > a {
