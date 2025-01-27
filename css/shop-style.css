@@ -53,6 +53,7 @@ button:focus {
 
 a, .simple-hover img, button, .btn {
   transition: all 0.3s;
+  cursor: pointer;
   -webkit-transition: all 0.3s; }
 
 a {
@@ -458,13 +459,13 @@ strong, b {
     text-align: center; }
 
 .contact-lead {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 1);
   font-size: 20px;
   font-weight: 300; }
   .contact-lead small {
     font-size: 50%;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.3); }
+    color: rgba(255, 255, 255, 1); }
 
 .parallax-overlay {
   position: relative;
@@ -2332,7 +2333,7 @@ Footer styles
     margin-right: 8px; }
 
 .footer p {
-  color: rgba(255, 255, 255, 0.6); }
+  color: rgba(255, 255, 255, 0.8); }
 
 .footer-list-item li {
   padding-left: 20px;
